@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:MSM-{####}",
+ "creation": "2025-04-21 16:38:59.231917",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_pj2w",
+  "animal_id",
+  "measurement_date",
+  "weight",
+  "amended_from",
+  "column_break_zvjs",
+  "height",
+  "width",
+  "temperature",
+  "column_break_jgsq",
+  "condition_score",
+  "fecal_egg_count",
+  "famacha"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_pj2w",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Measurement",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "animal_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Animal ID",
+   "options": "Livestock",
+   "reqd": 1
+  },
+  {
+   "fieldname": "measurement_date",
+   "fieldtype": "Date",
+   "label": "Measurement Date"
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "label": "Height"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Float",
+   "label": "Width"
+  },
+  {
+   "fieldname": "temperature",
+   "fieldtype": "Float",
+   "label": "Temperature"
+  },
+  {
+   "fieldname": "condition_score",
+   "fieldtype": "Float",
+   "label": "Condition Score"
+  },
+  {
+   "fieldname": "famacha",
+   "fieldtype": "Float",
+   "label": "Famacha"
+  },
+  {
+   "fieldname": "fecal_egg_count",
+   "fieldtype": "Float",
+   "label": "Fecal Egg Count"
+  },
+  {
+   "fieldname": "column_break_zvjs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_jgsq",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-04-26 15:55:27.134144",
+ "modified_by": "Administrator",
+ "module": "Farm Management",
+ "name": "Measurement",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
