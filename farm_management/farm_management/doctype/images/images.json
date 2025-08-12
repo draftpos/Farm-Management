@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:IMG-{####}",
+ "creation": "2025-04-21 17:05:06.335313",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "animal_id",
+  "image"
+ ],
+ "fields": [
+  {
+   "fieldname": "animal_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Animal ID",
+   "options": "Livestock",
+   "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-26 17:48:13.575335",
+ "modified_by": "Administrator",
+ "module": "Farm Management",
+ "name": "Images",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
